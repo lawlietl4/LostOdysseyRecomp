@@ -1,0 +1,43 @@
+[main]
+file_path = "C:/Users/nick/Documents/XenonRecompLO/Lost Odyssey Disc 1/default.xex"
+# patched_file_path = "C:/Users/nick/Documents/XenonRecompLO/Lost Odyssey Disc 1/out/default_patched.xex"
+out_directory_path = "C:/Users/nick/Documents/XenonRecompLO/Lost Odyssey Disc 1/ppc"
+switch_table_file_path = "C:/Users/nick/Documents/XenonRecompLO/disc1table.toml"
+
+skip_lr = false
+skip_msr = false
+ctr_as_local = false
+xer_as_local = false
+reserved_as_local = false
+cr_as_local = false
+non_argument_as_local = false
+non_volatile_as_local = false
+
+restgprlr_14_address = 0x82B7A700
+savegprlr_14_address = 0x82B7A6B0
+restfpr_14_address = 0x82B7B17C
+savefpr_14_address = 0x82B7B130
+restvmx_14_address = 0x82DF2D98
+savevmx_14_address = 0x82DF2B00
+restvmx_64_address = 0x82DF2E2C
+savevmx_64_address = 0x82DF2B94
+
+functions = [
+    { data = 0x82297008, size = 424 },
+    { data = 0x8229dcc8, size = 280 },
+    { data = 0x822a0a50, size = 524 },
+    { data = 0x822a7f10, size = 248 },
+    { data = 0x82296fe8, size = 500 },
+    {},
+]
+
+invalid_funcitons = [
+    { data = 0x00000000, size = 4 },
+    { data = 0x82291ab8, size = 16 },
+    { data = 0x82291ac0, size = 12 },
+    { data = 0x82292530, size = 22208 },
+    { data = 0x8229552c, size = 1168 },
+    { data = 0x8229ECF4, size = 10328 },
+    { data = 0x8229f4d4, size = 13024 },
+    { data = 0x82abc3fc, size = 2976 },
+]
