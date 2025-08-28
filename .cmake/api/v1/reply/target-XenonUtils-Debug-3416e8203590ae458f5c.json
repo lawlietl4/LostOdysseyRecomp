@@ -1,0 +1,250 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "XenonUtils/XenonUtils.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"XenonUtils/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "--target=amd64-pc-windows-msvc -fdiagnostics-absolute-paths  /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MTd -Zi"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "NOMINMAX"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/nick/source/repos/XenonRecomp/XenonUtils/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/nick/source/repos/XenonRecomp/thirdparty/libmspack/libmspack/mspack"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/nick/source/repos/XenonRecomp/thirdparty/tiny-AES-c"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/nick/source/repos/XenonRecomp/thirdparty/TinySHA1"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/nick/source/repos/XenonRecomp/thirdparty/disasm/."
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "--target=amd64-pc-windows-msvc -fdiagnostics-absolute-paths  /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -MTd -Zi"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "NOMINMAX"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/nick/source/repos/XenonRecomp/XenonUtils/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/nick/source/repos/XenonRecomp/thirdparty/libmspack/libmspack/mspack"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/nick/source/repos/XenonRecomp/thirdparty/tiny-AES-c"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/nick/source/repos/XenonRecomp/thirdparty/TinySHA1"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/nick/source/repos/XenonRecomp/thirdparty/disasm/."
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				6,
+				7
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "disasm::@3e64b103206a5d2ef617"
+		}
+	],
+	"id" : "XenonUtils::@3e384d807a7046ddae74",
+	"name" : "XenonUtils",
+	"nameOnDisk" : "XenonUtils.lib",
+	"paths" : 
+	{
+		"build" : "XenonUtils",
+		"source" : "XenonUtils"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "XenonUtils/disasm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "XenonUtils/xex.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "XenonUtils/image.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "XenonUtils/xdbf_wrapper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "XenonUtils/xex_patcher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "XenonUtils/memory_mapped_file.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "thirdparty/libmspack/libmspack/mspack/lzxd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "thirdparty/tiny-AES-c/aes.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

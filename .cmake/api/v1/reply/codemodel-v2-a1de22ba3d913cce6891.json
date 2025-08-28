@@ -1,0 +1,357 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						6,
+						7,
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "thirdparty",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-thirdparty-Debug-0f2e859fab11afaedcba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "thirdparty"
+				},
+				{
+					"build" : "thirdparty/disasm",
+					"jsonFile" : "directory-thirdparty.disasm-Debug-458c33a2c228d390cde2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "thirdparty/disasm",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "thirdparty/fmt",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-thirdparty.fmt-Debug-7e1b340248beb1cead9d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "thirdparty/fmt",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "thirdparty/tomlplusplus",
+					"jsonFile" : "directory-thirdparty.tomlplusplus-Debug-a8bd22853a96877ed529.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "thirdparty/tomlplusplus"
+				},
+				{
+					"build" : "thirdparty/xxHash/cmake_unofficial",
+					"jsonFile" : "directory-thirdparty.xxHash.cmake_unofficial-Debug-65dcc66503feb57315ab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "thirdparty/xxHash/cmake_unofficial",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "XenonAnalyse",
+					"jsonFile" : "directory-XenonAnalyse-Debug-15064b4ed1785275868c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "XenonAnalyse",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "XenonRecomp",
+					"jsonFile" : "directory-XenonRecomp-Debug-74e064edae9c148f6227.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "XenonRecomp",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "XenonUtils",
+					"jsonFile" : "directory-XenonUtils-Debug-9a3bb5ba85cc5ac9b2a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "XenonUtils",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "XenonTests",
+					"jsonFile" : "directory-XenonTests-Debug-574791af0ddb3c990caa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "XenonTests"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						6,
+						7,
+						8,
+						9
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "XenonRecomp-ALL"
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "disasm",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "FMT",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "tomlplusplus",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "xxHash",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "XenonAnalyse",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "XenonRecomp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "XenonUtils",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "XenonTests",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "LibXenonAnalyse::@2ef4979d6a5499326067",
+					"jsonFile" : "target-LibXenonAnalyse-Debug-a76906cacc5398a97013.json",
+					"name" : "LibXenonAnalyse",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "XenonAnalyse::@2ef4979d6a5499326067",
+					"jsonFile" : "target-XenonAnalyse-Debug-50f6554617f6cc194b5b.json",
+					"name" : "XenonAnalyse",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "XenonRecomp::@252090be368e779ad3e2",
+					"jsonFile" : "target-XenonRecomp-Debug-e18bb99f63c9164d6881.json",
+					"name" : "XenonRecomp",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "XenonUtils::@3e384d807a7046ddae74",
+					"jsonFile" : "target-XenonUtils-Debug-3416e8203590ae458f5c.json",
+					"name" : "XenonUtils",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "disasm::@3e64b103206a5d2ef617",
+					"jsonFile" : "target-disasm-Debug-d1066b8d04976a38e13f.json",
+					"name" : "disasm",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "fmt::@4454c291225ff6899f24",
+					"jsonFile" : "target-fmt-Debug-73f056f3cf0857f0debd.json",
+					"name" : "fmt",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "xxhash::@71bea1a886226461059a",
+					"jsonFile" : "target-xxhash-Debug-2c19273b6973b7dc3444.json",
+					"name" : "xxhash",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "xxhsum::@71bea1a886226461059a",
+					"jsonFile" : "target-xxhsum-Debug-b9c2d0d7010cab424955.json",
+					"name" : "xxhsum",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/nick/source/repos/XenonRecomp/out/build/x64-Clang-Debug",
+		"source" : "C:/Users/nick/source/repos/XenonRecomp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
